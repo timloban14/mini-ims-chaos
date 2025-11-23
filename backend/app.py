@@ -43,7 +43,7 @@ def generate_traffic():
         time.sleep(0.01) # <--- WE WILL CHANGE THIS LATER TO BREAK IT
 
 # --- 2. THE CONSUMER (The Backend Processor) ---
-def ingest_data():
+def ingest_data(0.5):
     print("⏳ CONSUMER: Waiting for Kafka...")
     time.sleep(17) 
     
